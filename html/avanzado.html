@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3c994eaa39.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="header">
+      <ul class="links">
+        <li><a href="index.html">Texto</a></li>
+        <li><a href="imagenes.html">Imagenes</a></li>
+        <li><a href="avanzado.html">Avanzado</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="container-banner">
+        <img src="https://raw.githubusercontent.com/JhonatanDczel/the-odin-project-foundations/main/Area51/Projects/google-clon/img/banner.png" alt="Banner de un gato google" class="banner">
+      </div>
+      <div class="tittle">Busqueda avanzada</div>
+      <form class="input input-avanzado" action="../cgi-bin/advanced_search.pl" method="GET">
+        <div class="campos">
+          <input class="avanzado" type="text" placeholder="Todas estas palabras" name="q">
+          <input class="avanzado" type="text" placeholder="Esta palabra o frase exacta" name="as_epq">
+          <input class="avanzado" type="text" placeholder="Ninguna de estas palabras" name="as_eq">
+        </div>
+        <button class="boton boton-avanzado" type="submit"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+      </form>
+    </div>
+    <div class="footer">
+      <p class="autor">Dczel Dev <span class="icon">&lt;/&gt;</span></p>
+    </div>
+  </body>
+</html>
